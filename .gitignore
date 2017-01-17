@@ -15,3 +15,50 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+
+# Local configuration file (sdk path, etc)
+# ############################################
+local.properties
+project.properties
+build.xml
+proguard-project.txt
+
+# Generated files
+# ###################
+bin/
+gen/
+build/
+
+# Eclipse project files
+# #########################
+.classpath
+.project
+.settings/
+proguard/
+
+# Intellij project files
+# ##########################
+*.iml
+*.eml
+*.ipr
+*.iws
+*.userlibraries
+.idea/
+.gradle/
+
+# Compiled source
+# ###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# OS generated files
+# ######################
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
